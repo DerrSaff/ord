@@ -1,10 +1,10 @@
 import React from 'react'
 
 const QueryForm = () => (
-  <form method="get">
+  <div>
     <input className="search_field" type="text" />
-    <input className="submit_button" type="submit"/>
-  </form>
+    <button>Submit</button>
+  </div>
 )
 
 export default QueryForm

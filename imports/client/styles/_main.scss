@@ -40,7 +40,12 @@ h1 {
   font-size: 2.4rem;
 }
 
-
+button {
+  height: 3rem;
+  width: 7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
 @import "./components/navigation";
 @import "./components/query-page";

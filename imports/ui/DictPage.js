@@ -2,10 +2,11 @@ import React from 'react'
 import QueryForm from './QueryForm'
 
 const DictPage = () => (
-  <div>
+  <main className="query_page">
     <QueryForm />
-    <button>Create</button>
-  </div>
+    <br />
+    <button className="create_button">Create</button>
+  </main>
 )
 
 export default DictPage
