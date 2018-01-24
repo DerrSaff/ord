@@ -1,7 +1,6 @@
 // Variables
 
-$green: #e4ede0;
-$green-alt: darken($green, 15%);
+$dark-grey: #6b6b6b;
 $blue: #dfe7ed;
 $blue-alt: darken($blue, 15%);
 $red: #eddfdf;
@@ -25,6 +24,15 @@ body {
 
 select {
   height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-grey;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 h1 {

@@ -3,6 +3,8 @@
   display: flex;
   justify-content: flex-end;
   padding: 2rem;
+  border-bottom: 0.1rem $dark-grey solid;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .navigation__links {
