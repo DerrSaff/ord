@@ -14,7 +14,6 @@ const App = () => (
   <Router>
     <div>
       <Navigation />
-      <hr/>
 
       <Route exact path="/" component={QueryPage}/>
       <Route path="/dictionary" component={DictPage}/>

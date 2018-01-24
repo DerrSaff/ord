@@ -2,7 +2,9 @@
   background-color: rgb(236, 236, 236);
   display: flex;
   justify-content: flex-end;
-  padding: 2rem;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  height: 10vh;
   border-bottom: 0.1rem $dark-grey solid;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }

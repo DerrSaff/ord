@@ -2,9 +2,9 @@ import React from 'react'
 import QueryForm from './QueryForm'
 
 const QueryPage = () => (
-  <div>
+  <main className="query_page">
     <QueryForm />
-  </div>
+  </main>
 )
 
 export default QueryPage
