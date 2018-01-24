@@ -3,8 +3,8 @@ import {NavLink} from 'react-router-dom'
 import LanguageSelect from './LanguageSelect'
 
 const Navigation = () => (
-  <nav>
-    <ul className="navigation">
+  <nav className="navigation">
+    <ul className="navigation__links">
       <li>
         <NavLink to="/">Home</NavLink>
       </li>

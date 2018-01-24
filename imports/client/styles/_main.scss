@@ -23,11 +23,15 @@ body {
   font-size: 1.6rem;
 }
 
-input, button, select {
-  font-size: 1.3rem;
+select {
+  height: 2rem;
 }
 
 h1 {
   font-weight: 300;
   font-size: 2.4rem;
 }
+
+
+
+@import "./components/navigation";
