@@ -1,6 +1,7 @@
 import React from 'react'
 import QueryForm from './QueryForm'
 import {BrowserRouter as Router, Link} from 'react-router-dom'
+const { Translate } = require('react-i18nify');
 
 class DictPage extends React.Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class DictPage extends React.Component {
         <QueryForm/>
         <br/>
 
-        <Link to="/create_entity">Create</Link>
+        <Link to="/create_entity"><Translate value="ui.create" /></Link>
       </main>
     )
   }

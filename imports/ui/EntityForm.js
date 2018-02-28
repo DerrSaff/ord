@@ -1,4 +1,5 @@
 import React from 'react'
+const { Translate } = require('react-i18nify');
 
 class EntityForm extends React.Component {
   constructor(props) {
@@ -12,14 +13,14 @@ class EntityForm extends React.Component {
     return (
       <div className="entity-form">
         <h1>
-          {this.state.action}
+          <Translate value={"ui." + this.state.action} />
         </h1>
 
         <div className="input-group">
-          <label>Select type:</label>
+          <label><Translate value="ui.select_type" />:</label>
           <select>
-            <option>Word</option>
-            <option>Phrase</option>
+            <option><Translate value="ui.word" /></option>
+            <option><Translate value="ui.phrase" /></option>
           </select>
         </div>
 
