@@ -25,11 +25,11 @@ class EntityForm extends React.Component {
         </div>
 
         <div className="input-group">
-          <label>Spelling:</label>
+          <label><Translate value="ui.spelling" /></label>
           <input type="text"/>
         </div>
 
-        <h3>Common params</h3>
+        <h3><Translate value="ui.common_params" /></h3>
 
         <div className="input-group">
           <input type="text"/>:
@@ -44,7 +44,7 @@ class EntityForm extends React.Component {
           <input type="text"/>
         </div>
 
-        <h3>Semantics</h3>
+        <h3><Translate value="ui.semantics" /></h3>
       </div>
 
     )

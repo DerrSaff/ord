@@ -9,7 +9,10 @@ export default translations = {
       create: "Create",
       word: "word",
       phrase: "phrase",
-      select_type: "Select type"
+      select_type: "Select type",
+      spelling: "Spelling",
+      common_params: "Common parameters",
+      semantics: "Semantics"
     }
   },
   ru: {
@@ -22,7 +25,10 @@ export default translations = {
       create: "Создать",
       word: "слово",
       phrase: "фраза",
-      select_type: "Выберите тип"
+      select_type: "Выберите тип",
+      spelling: "Написание",
+      common_params: "Общие параметры",
+      semantics: "Семантика"
     }
   }
 }
