@@ -1,10 +1,10 @@
 import React from 'react'
-const { Translate } = require('react-i18nify');
 
 const QueryForm = () => (
-  <div>
+  <div className="search_form">
     <input className="search_field" type="text" />
-    <button><Translate value="ui.search" /></button>
+    <button>Clear</button>
+    <button>Submit</button>
   </div>
 )
 

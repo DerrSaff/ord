@@ -22,10 +22,6 @@ body {
   font-size: 1.6rem;
 }
 
-select {
-  height: 2rem;
-}
-
 a {
   text-decoration: none;
   color: $dark-grey;
@@ -35,11 +31,6 @@ a {
   }
 }
 
-h1 {
-  font-weight: 300;
-  font-size: 2.4rem;
-}
-
 button {
   height: 3rem;
   width: 7rem;
@@ -47,7 +38,4 @@ button {
   margin-right: 1rem;
 }
 
-@import "./components/navigation";
-@import "./components/query-page";
 @import "./components/query-form";
-@import "./components/entity-form";
